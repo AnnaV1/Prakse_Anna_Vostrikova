@@ -1,3 +1,22 @@
+@font-face
+{
+font-family: GothamBook;
+src: url('GothamBook.ttf')
+}
+
+@font-face
+{
+font-family: GothamMedium;
+src: url('GothamMedium.ttf')
+}
+
+@font-face
+{
+font-family: GothamBold;
+src: url('GothamBold.ttf')
+}
+
+
 html {
   scroll-behavior: smooth;
 }
