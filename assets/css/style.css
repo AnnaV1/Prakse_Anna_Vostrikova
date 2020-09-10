@@ -1,19 +1,19 @@
 @font-face
 {
 font-family: GothamBook;
-src: url('GothamBook.ttf')
+src: url('../fonts/GothamBook.ttf')
 }
 
 @font-face
 {
 font-family: GothamMedium;
-src: url('GothamMedium.ttf')
+src: url('../fonts/GothamMedium.ttf')
 }
 
 @font-face
 {
 font-family: GothamBold;
-src: url('GothamBold.ttf')
+src: url('../fonts/GothamBold.ttf')
 }
 
 
