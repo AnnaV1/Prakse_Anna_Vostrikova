@@ -17,8 +17,12 @@ src: url('../fonts/Oswald-Medium.ttf')
 }
 
 
-
-
+/*.ripped {
+    background-image: url("../img/ripped 6 7.svg");
+    transform: rotate(-180deg);
+    position: relative;
+    
+}*/
 
 body {
   margin:0;
@@ -75,12 +79,22 @@ body {
 
 .big-box {
     display: flex;
-    flex-shrink: 0;
+    flex-shrink: 1;
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: nowrap;
+    overflow-x: hidden;
     
+}
+
+.big-box img {
+    max-width: 50%;
+    flex-shrink: 1;
+}
+
+.column img {
+    max-width: 100%; 
 }
 
 .header-pad {
@@ -448,7 +462,7 @@ input[type=number] {
 
     .wrap {
         flex-wrap: wrap-reverse;
-        max-width: min-content;
+            overflow-x: hidden;
         } 
 
     .photo-holder {
@@ -468,6 +482,9 @@ input[type=number] {
 
 .menubtn {
     display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .clickbox {
@@ -589,18 +606,22 @@ h1 {
   line-height: 29px;
   font-weight: 500;
 }
-.big-box {
+.big-box1 {
   display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  flex-shrink: 0;
-    max-width: 1366px;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
 }
 .aaa {
   background: url("../img/Union3.svg");
   padding-top: 70px;
+}
+
+.aaa2 {
+    background: url("../img/Subtract.svg");
+    padding-top: 70px;
 }
 .backg {
   background: #2F4858;
@@ -715,7 +736,7 @@ width: 182px;
     align-items: baseline;
     margin-top: 35px;
   }
-  .big-box {
+  .big-box1 {
     flex-direction: column;
   }
   .req {
